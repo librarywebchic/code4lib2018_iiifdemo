@@ -1,0 +1,127 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost/git/iiif_demo/kac_cdm_highlights.json",
+  "@type": "sc:Manifest",
+  "label": "Karen's CONTENTdm Highlights",
+  "metadata": [
+    {
+      "label": "Description",
+      "value": "Highlights from CONTENTdm demo collection"
+    }
+  ],
+  "description": "A selection of highlights from CONTENTdm images",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "Normal Order",
+      "canvases": [
+        {
+          "label": "A coasting party on the Cripple Creek Short Line",
+          "width": 5023,
+          "@type": "sc:Canvas",
+          "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/390/canvas/c0",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/390/canvas/c0",
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/390"
+                },
+                "height": 4069,
+                "width": 5023,
+                "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/390/full/full/0/default.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/390/annotation/a0",
+              "@type": "oa:Annotation"
+            }
+          ]
+        },
+        {
+          "label": "David F. Barry, seated, dog on table (older), 3/4 length",
+          "width": 3147,
+          "@type": "sc:Canvas",
+          "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/357/canvas/c0",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/357/canvas/c0",
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/357"
+                },
+                "height": 3994,
+                "width": 3147,
+                "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/357/full/full/0/default.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/357/annotation/a0",
+              "@type": "oa:Annotation"
+            }
+          ]
+        },
+        {
+          "label": "St. Peters Dome on the Cripple Creek Short Line",
+          "width": 5017,
+          "@type": "sc:Canvas",
+          "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/389/canvas/c0",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/389/canvas/c0",
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/389"
+                },
+                "height": 4057,
+                "width": 5017,
+                "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/389/full/full/0/default.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/389/annotation/a0",
+              "@type": "oa:Annotation"
+            }
+          ]
+        },
+        {
+          "label": "Tunnel No. 4, Cripple Creek Short Line",
+          "width": 4089,
+          "@type": "sc:Canvas",
+          "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/391/canvas/c0",
+          "images": [
+            {
+              "motivation": "sc:painting",
+              "on": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/391/canvas/c0",
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/391"
+                },
+                "height": 5041,
+                "width": 4089,
+                "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/391/full/full/0/default.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@id": "https://cdm10010.contentdm.oclc.org/digital/iiif/coll16/391/annotation/a0",
+              "@type": "oa:Annotation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
