@@ -47,6 +47,10 @@ $(document).ready(function(){
     // the rest of the javascript
 });
 </script>
+```
+
+## Download the manifest locally
+Link kac_cmd_highlights.json
 
 ## Read a Manifest containing Gallery Information
 1. Make an HTTP request for a manifest in JSON format
@@ -54,7 +58,7 @@ $(document).ready(function(){
 3. Add to the HTML a header with the label for the manifest
 
 ``` 
-   $.getJSON( "http://localhost:8080/git/code4_lib2018_iiifdemo/kac_cmd_highlights.json",
+   $.getJSON( "kac_cmd_highlights.json",
             function (data) {
                     $("#images").empty();
                         var html = '';
@@ -81,6 +85,7 @@ $.each(data.sequences[0].canvases, function(i,canvas){
 });
 
 ```
+
 ## Lightbox the Images
 1. Create an "on click" event tied to the ".hover-shadow-cursor" class
 2. Get the id of the item in the gallery which is the image number
@@ -89,6 +94,7 @@ $.each(data.sequences[0].canvases, function(i,canvas){
 5. Toggle the CSS to display the image
 6. Add the image to the page
 7. Add the image caption to the page
+
 ```
 $(document.body).on('click', '.hover-shadow-cursor', function(event) {
          
@@ -105,7 +111,8 @@ $(document.body).on('click', '.hover-shadow-cursor', function(event) {
          
          $('#caption').append(caption);
      });
-```     
+```
+     
 ## Create function to close the Lightbox
 1. Create an "on click" event tied to the ".close" class
 2. Toggle the CSS to not display images
@@ -118,7 +125,3 @@ $(document.body).on('click', '.close', function(event) {
     $("#caption").empty();
 });
 ```
-
-
-
-
