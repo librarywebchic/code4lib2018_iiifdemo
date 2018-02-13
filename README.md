@@ -92,7 +92,14 @@ $(document).ready(function(){
     // function to close the lightbox        
 ```            
 ### Loop through the canvases and add them to the page in the image div
+
+This demo makes assumptions about how the manifest is structured.
+    - 1 image per canvas
+    - Image service specified in the manifest
+    - Each image has label metadata
+
 1. Add html to hold the image
+    a. The HTML use the Image API similar to what is described in http://ronallo.com/iiif-workshop/image/images-in-html.html
 2. Add a span with an id for the image service
 3. Add the actual image using the image service and the [http://ronallo.com/iiif-workshop/image/parameters.html](IIIF Image API URI Parameters)
     a. Add alt text for the image with the canvas label
@@ -150,3 +157,12 @@ $(document.body).on('click', '.close', function(event) {
     $("#caption").empty();
 });
 ```
+### Adding more metadata to the lightbox or page
+
+- label
+- description
+- license
+- attribution
+- metadata
+
+[http://adore.ugent.be/IIIF/manifests/archive.ugent.be%3A4B39C8CA-6FF9-11E1-8C42-C8A93B7C8C91] Example with license and attribution
